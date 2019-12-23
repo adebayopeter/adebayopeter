@@ -1,0 +1,11 @@
+[02-Jun-2017 13:23:54 UTC] PHP Strict Standards:  Non-static method DataObject::connect() should not be called statically in /home/adebayo55/public_html/inc/User.class.php on line 44
+[02-Jun-2017 13:23:54 UTC] PHP Strict Standards:  Non-static method DataObject::disconnect() should not be called statically in /home/adebayo55/public_html/inc/User.class.php on line 52
+[02-Jun-2017 13:23:54 UTC] PHP Notice:  Undefined variable: fullname in /home/adebayo55/public_html/Admin/inc/view/header.php on line 212
+[02-Jun-2017 13:23:54 UTC] PHP Notice:  Undefined variable: fullname in /home/adebayo55/public_html/Admin/inc/view/header.php on line 219
+[02-Jun-2017 13:23:54 UTC] PHP Notice:  Undefined variable: occupation in /home/adebayo55/public_html/Admin/inc/view/header.php on line 219
+[02-Jun-2017 13:23:54 UTC] PHP Notice:  Undefined variable: role_category in /home/adebayo55/public_html/Admin/inc/view/header.php on line 220
+[02-Jun-2017 13:23:54 UTC] PHP Notice:  Undefined variable: fullname in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 10
+[02-Jun-2017 13:23:54 UTC] PHP Notice:  Undefined variable: userdetails in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 101
+[02-Jun-2017 13:23:54 UTC] PHP Notice:  Undefined variable: userdetails in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 101
+[02-Jun-2017 13:23:54 UTC] PHP Strict Standards:  Non-static method DataObject::connect() should not be called statically in /home/adebayo55/public_html/inc/Category.class.php on line 16
+[02-Jun-2017 13:23:54 UTC] PHP Strict Standards:  Non-static method DataObject::disconnect() should not be called statically in /home/adebayo55/public_html/inc/Category.class.php on line 27

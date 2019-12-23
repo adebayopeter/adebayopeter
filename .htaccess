@@ -1,0 +1,14 @@
+RewriteEngine On
+#rule has two parts
+#first is the url the browser is requesting
+#second is what should happen when this pattern is found
+RewriteRule ^projects/([a-zA-Z]+)/$ projects/projects.php?skd=([a-zA-Z]+)$
+
+#Redirecting old web address
+RewriteRule ^aboutme.php$ /adebayopeter/aboutme/ [R=301]
+RewriteRule ^blog.php$ /adebayopeter/blog/ [R=301]
+RewriteRule ^contact.php$ /adebayopeter/contact/ [R=301]
+
+#Redirecting the individual shirt pages with rewrite conditionals
+RewriteCond %{QUERY_STRING} ^skd=([a-zA-Z]+)$
+RewriteRule ^projects.php$ /adebayopeter/projects/%1/? [R=301]

@@ -1,0 +1,31 @@
+[02-Jun-2017 13:23:41 UTC] PHP Notice:  Undefined index: user in /home/adebayo55/public_html/inc/common.inc.php on line 10
+[02-Jun-2017 13:23:41 UTC] PHP Notice:  Use of undefined constant btnSignIn - assumed 'btnSignIn' in /home/adebayo55/public_html/Admin/login.php on line 14
+[02-Jun-2017 13:23:41 UTC] PHP Notice:  Undefined variable: page_title in /home/adebayo55/public_html/Admin/login.php on line 34
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Use of undefined constant btnSignIn - assumed 'btnSignIn' in /home/adebayo55/public_html/Admin/login.php on line 14
+[02-Jun-2017 13:23:48 UTC] PHP Strict Standards:  Non-static method DataObject::connect() should not be called statically in /home/adebayo55/public_html/inc/User.class.php on line 44
+[02-Jun-2017 13:23:48 UTC] PHP Strict Standards:  Non-static method DataObject::disconnect() should not be called statically in /home/adebayo55/public_html/inc/User.class.php on line 52
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 17
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 22
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 29
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 31
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 33
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 37
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 44
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 46
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 48
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 52
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 57
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 64
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 66
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 68
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 70
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 72
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 76
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 81
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section_head in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 86
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 93
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 96
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: section in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 100
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: userdetails in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 101
+[02-Jun-2017 13:23:48 UTC] PHP Notice:  Undefined variable: userdetails in /home/adebayo55/public_html/Admin/inc/view/sidebar.php on line 101
+[23-Nov-2017 13:20:22 UTC] PHP Notice:  Undefined index: user in /home/adebayo55/public_html/inc/common.inc.php on line 10
