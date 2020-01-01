@@ -12,5 +12,35 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/aboutme', function () {
+
+    return view('aboutme');
+});
+
+Route::get('/projects', function () {
+
+    return view('projects');
+});
+
+Route::get('/blog', function () {
+
+    return view('blog');
+});
+
+Route::get('/gallery', function () {
+
+    return view('gallery');
+});
+
+Route::get('/contact', function () {
+
+    return view('contact');
+});
+
+Route::get('/cv', function() {
+
+    return view('cv');
 });
