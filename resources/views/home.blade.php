@@ -1,99 +1,32 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>{{ config('app.name', 'ADEBAYOPETER.COM') }}</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+@section('content')
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    ADEBAYO PETER
-                </div>
-
-                <div class="links">
-                    <a href="/">Home</a>
-                    <a href="/aboutme">About Me</a>
-                    <a href="/projects">Projects</a>
-                    <a href="/blog">Blog</a>
-                    <a href="/gallery">Gallery</a>
-                    <a href="/contact">Contact</a>
-                    <a href="/cv">CV</a>
+    <section id="hero" class="light-typo ">
+        <div class="container welcome-content">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow fadeInUp">
+                    <img id="logo" src="/img/logo.png" class="img-responsive text-center" alt="shop logo" width="300">
+                    <h2> - Software Developer | Database Administrator - </h2>
+                    <ul class="social-links text-center">
+                        <li><a href="https://twitter.com/adebayopekunmi" target="_blank"><i class="icon-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/adebayo.p.olaonipekun" target="_blank"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/+AdebayoOlaonipekun/" target="_blank"><i class="icon-googleplus"></i></a></li>		
+                    </ul>
+                    <a class="btn btn-store smooth-scroll" href="/projects">browse my work</a>
                 </div>
             </div>
         </div>
-    </body>
-</html>
+        <div class="overlay-bg"></div>
+        <div id="hero-slides">
+            <div class="slides-container">
+                <img src="/img/img2.jpg" alt="Adebayo Peter Olaonipekun">
+                <img src="/img/adebayopeterola.jpg" alt="Adebayo Peter Olaonipekun">
+                <img src="/img/server_romm.jpg" alt="Adebayo Peter Olaonipekun">
+                <img src="/img/c2.jpg" alt="Adebayo Peter Olaonipekun">
+            </div>
+        </div>
+    </section>
+
+@endsection

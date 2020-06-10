@@ -1,8 +1,8 @@
-@extends('layouts.app');
-@section('title')
-Blog | ADEBAYOPETER.COM
-@stop
+@extends('layouts.app')
 
 @section('content')
-BLOG
-@stop
+
+    <section id="blog" class="padding-top-bottom ">
+    </section>
+
+@endsection

@@ -1,8 +1,8 @@
-@extends('layouts.app');
-@section('title')
-Gallery | ADEBAYOPETER.COM
-@stop
+@extends('layouts.app')
 
 @section('content')
-GALLERY
-@stop
+
+    <section id="gallery" class="padding-top-bottom ">
+    </section>
+    
+@endsection

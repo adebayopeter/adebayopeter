@@ -11,39 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/aboutme', function () {
+Route::get('/aboutme', 'HomeController@aboutme')->name('aboutme');
 
-    return view('aboutme');
-});
+Route::get('/projects', 'HomeController@projects')->name('projects');
 
-Route::get('/projects', function () {
+Route::get('/blog', 'HomeController@blog')->name('blog');
 
-    return view('projects');
-});
+Route::get('/gallery', 'HomeController@gallery')->name('gallery');
 
-Route::get('/blog', function () {
+Route::get('/contact', 'HomeController@contact')->name('contact');
 
-    return view('blog');
-});
 
-Route::get('/gallery', function () {
+Route::get('admin', 'AdminController@index')->name('admin');
 
-    return view('gallery');
-});
-
-Route::get('/contact', function () {
-
-    return view('contact');
-});
-
-Route::get('/cv', function() {
-
-    return view('cv');
-});
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
