@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,6 +12,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
@@ -24,6 +28,6 @@ Route::get('/gallery', 'HomeController@gallery')->name('gallery');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 
 
-Route::get('admin', 'AdminController@index')->name('admin');
 
-Auth::routes();
+Route::get('admin', 'AdminController@index')->name('admin');
+Route::resource('admin/clients', 'ClientsController');

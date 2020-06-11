@@ -72,6 +72,22 @@
 
                 <!-- Nav Item - Utilities Collapse Menu -->
                 <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseClients" aria-expanded="true" aria-controls="collapseClients">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Clients</span>
+                    </a>
+                    <div id="collapseClients" class="collapse" aria-labelledby="headingClients" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{{ route('clients.index') }}">All Clients</a>
+                        <a class="collapse-item" href="{{ route('clients.index') }}">Create Client</a>
+                    </div>
+                    </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
                     <span>Posts</span>
@@ -84,9 +100,6 @@
                     </div>
                     </div>
                 </li>
-
-                <!-- Divider -->
-                <hr class="sidebar-divider">
 
                 <!-- Nav Item - Pages Collapse Menu -->
                 <li class="nav-item">

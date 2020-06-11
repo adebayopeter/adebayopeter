@@ -92,7 +92,7 @@
 
 		<footer id="main-footer" class="dark-bg light-typo">
 			<div class="container">
-				<p class="pull-left copyright wow fadeInUp">&copy; adebayopeter.com {{ Carbon::now()->year }}.
+				<p class="pull-left copyright wow fadeInUp">&copy; adebayopeter.com 2018.
 				<!--<br>  Designed by <a href="http://www.adebayopeter.com" target="_blank">Adebayo Peter Olaonipekun</a>.<br>-->
 				</p>
 
