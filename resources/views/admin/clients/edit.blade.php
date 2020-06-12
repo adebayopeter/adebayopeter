@@ -44,7 +44,7 @@
                         </div>
 
                     </form>
-                    <br>
+                    {{-- <br>
                     <form action="/admin/clients/{{$client->id}}" method="post">
 
                         {{ csrf_field() }}
@@ -55,7 +55,7 @@
                             <input type="submit" value="Delete Category" class="btn btn-danger btn-sm btn-block">
                         </div>
 
-                    </form>
+                    </form> --}}
                 </div>
             </div>
         </div>

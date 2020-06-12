@@ -28,6 +28,15 @@ Route::get('/gallery', 'HomeController@gallery')->name('gallery');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 
 
+// Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
+//     \UniSharp\LaravelFilemanager\Lfm::routes();
+// });
+
+Route::group(['prefix' => 'laravel-filemanager'], function () {
+    \UniSharp\LaravelFilemanager\Lfm::routes();
+});
 
 Route::get('admin', 'AdminController@index')->name('admin');
 Route::resource('admin/clients', 'ClientsController');
+Route::resource('admin/app_categories', 'AppCategoryController');
+Route::resource('admin/applications', 'ApplicationController');

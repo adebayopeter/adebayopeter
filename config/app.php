@@ -226,6 +226,9 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // Self Imported Aliases
+        'Carbon' => Carbon\Carbon::class,
+
     ],
 
 ];
