@@ -43,7 +43,7 @@
                     <thead>
                     <tr>
                         <th>Id</th>
-                        <th>Photo</th>
+                        {{-- <th>Photo</th> --}}
                         <th>Application Name</th>
                         <th>Client</th>
                         <th>Category</th>              
@@ -61,7 +61,7 @@
                             @foreach ($applications as $application)
                                 <tr>
                                     <td>{{ $application->id }}</td>
-                                    <td><img src="{{ $application->photo ? $application->photo->file . $application->photo->file1 : 'http://placehold.it/400x400' }}" alt="" width="70px" height="70px" class="img-profile img-thumbnail"></td>
+                                    {{-- <td><img src="{{ $application->photo ? $application->photo->file . $application->photo->file1 : 'http://placehold.it/400x400' }}" alt="" width="70px" height="70px" class="img-profile img-thumbnail"></td> --}}
                                     <td>{{ $application->name }}</td>
                                     <td>{{ $application->client ? $application->client->name : '' }}</td>
                                     <td>{{ $application->appcategory ? $application->appcategory->name : '' }}</td>

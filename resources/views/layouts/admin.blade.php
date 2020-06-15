@@ -63,7 +63,7 @@
                     </a>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="">All Apps</a>
+                        <a class="collapse-item" href="{{ route('applications.index') }}">All Apps</a>
                         <a class="collapse-item" href="{{ route('applications.create') }}">Add New App</a>
                         <a class="collapse-item" href="{{ route('app_categories.index') }}">Application Categories</a>
                     </div>

@@ -7,6 +7,7 @@ use App\AppCategory;
 use App\Photo;
 use App\Application;
 use App\Http\Requests\ApplicationCreateRequest;
+use App\Http\Requests\ApplicationEditRequest;
 use Illuminate\Http\Request;
 
 
@@ -96,7 +97,10 @@ class ApplicationController extends Controller
      */
     public function show($id)
     {
-        //
+        $data = [
+            'application' => Application::findOrFail($id),
+        ];
+        return view('admin.applications.show')->with($data);
     }
 
     /**
@@ -107,7 +111,12 @@ class ApplicationController extends Controller
      */
     public function edit($id)
     {
-        //
+        $data = [
+            'application' => Application::findOrFail($id),
+            'clients' => Client::all(),
+            'appCategories' => AppCategory::all(),
+        ];
+        return view('admin.applications.edit')->with($data);
     }
 
     /**
@@ -117,9 +126,50 @@ class ApplicationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(ApplicationEditRequest $request, $id)
     {
-        //
+        $application = Application::findOrFail($id);
+
+        $input = $request->all();
+
+        if ($files = $request->file('photo_id')) {
+
+            if (count($request->file('photo_id')) > 3) {
+                session()->flash('image_error_msg', 'Image upload must not be greater than 3!');
+    
+                return redirect('admin/applications/edit')->withInput();
+            }
+
+            $photo = Photo::findOrFail($application->photo_id);
+
+            $i = 0;
+            $name = array();
+            foreach($files as $file) {
+                $name[$i] = time() . $file->getClientOriginalName();
+                $file->move('images', $name[$i]);
+
+                $i++;
+            }
+            if (count($name) == 1) {
+                $name[1] = $photo->file2;
+                $name[2] = $photo->file3;
+            }
+            else if (count($name) == 2) {
+                $name[2] = $photo->file3;
+            }
+            $photo->update([
+                'file1' => $name[0], 
+                'file2' => $name[1],
+                'file3' => $name[2],
+            ]);
+            $input['photo_id'] = $photo->id;
+        }
+
+        $application->update($input);
+
+        session()->flash('application_saved', 'Application has been created successfully!');
+
+        return redirect('admin/applications');
     }
 
     /**
@@ -130,6 +180,28 @@ class ApplicationController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $application = Application::findOrFail($id);
+
+        $photo = Photo::findOrFail($application->photo_id);
+
+        if ($photo->file1) {
+            unlink(public_path() . '\images\\' . $application->photo->file1);
+        }
+
+        if ($photo->file2) {
+            unlink(public_path() . '\images\\' . $application->photo->file2);
+        }
+
+        if ($photo->file3) {
+            unlink(public_path() . '\images\\' . $application->photo->file3);
+        }
+
+        $photo->delete();
+
+        $application->delete();
+
+        session()->flash('application_deleted', 'Application has been deleted successfully!');
+
+        return redirect('admin/applications');
     }
 }
