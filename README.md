@@ -1,6 +1,6 @@
 ![MasterHead](https://media.licdn.com/dms/image/v2/D4E16AQELqhrPaVz-3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1696936597066?e=1767225600&v=beta&t=CFyz2TOGuc_GsVSXGGRw4rhTkLAzwuaTO_rpdUWVxXw)
 <h1 align="center">Hi 👋, I'm Adebayo Peter Olaonipekun</h1>
-<h3 align="center">**Software Engineer | Machine Learning Engineer | AI/ML Educator**</h3>
+<h3 align="center">Software Engineer | Machine Learning Engineer | AI/ML Educator</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adebayopeter&label=Profile%20views&color=0e75b6&style=flat" alt="adebayopeter" /> </p>
