@@ -1,13 +1,13 @@
 ![MasterHead](https://media.licdn.com/dms/image/v2/D4E16AQELqhrPaVz-3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1696936597066?e=1767225600&v=beta&t=CFyz2TOGuc_GsVSXGGRw4rhTkLAzwuaTO_rpdUWVxXw)
 <h1 align="center">Hi 👋, I'm Adebayo Peter Olaonipekun</h1>
-<h3 align="center">A dedicated Software Developer and Machine Learning Engineer based in UK, originally from Nigeria.</h3>
+<h3 align="center">**Software Engineer | Machine Learning Engineer | AI/ML Educator**</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adebayopeter&label=Profile%20views&color=0e75b6&style=flat" alt="adebayopeter" /> </p>
 
 <p align="left"> <a href="https://twitter.com/adebayo_pekunmi" target="blank"><img src="https://img.shields.io/twitter/follow/adebayo_pekunmi?logo=twitter&style=for-the-badge" alt="adebayo_pekunmi" /></a> </p>
 
-- 🔭 I’m currently working on [Seasonal Bike Rental Analysis](https://github.com/adebayopeter/MLRegression_SeoulBikeRental)
+- 🔭 I’m currently working on [DBPyHelper](https://github.com/adebayopeter/dbpyhelper)
 
 - 💬 Ask me about **FastAPI, PyTorch, TensorFlow, Scikit-learn, or any machine learning frameworks and libraries—I'm happy to help!**
 
