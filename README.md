@@ -1,6 +1,6 @@
 ![MasterHead](https://media.licdn.com/dms/image/v2/D4E16AQELqhrPaVz-3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1696936597066?e=1767225600&v=beta&t=CFyz2TOGuc_GsVSXGGRw4rhTkLAzwuaTO_rpdUWVxXw)
 <h1 align="center">Hi 👋, I'm Adebayo Peter Olaonipekun</h1>
-<h3 align="center">Software Engineer & ML Educator | Built Ecosystem £1.5B AUM for 2.5M clients | Training 300+ ML engineers globally | Integrating AI Agents in fintech</h3>
+<h3 align="center">Software Engineer & ML Educator | Built Ecosystem ₦3 trillion (1.5 billion) AUM for 2.5M clients | Training 300+ ML engineers globally | Integrating AI Agents in fintech</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adebayopeter&label=Profile%20views&color=0e75b6&style=flat" alt="adebayopeter" /> </p>
@@ -8,7 +8,7 @@
 <p align="left"> <a href="https://twitter.com/adebayo_pekunmi" target="blank"><img src="https://img.shields.io/twitter/follow/adebayo_pekunmi?logo=twitter&style=for-the-badge" alt="adebayo_pekunmi" /></a> </p>
 
 - 🏢 **Unit Head, Enterprise Application Development** at Access ARM Pensions
-- Built digital platforms managing **₦450+ billion AUM** serving **2.2 million clients**
+- Built digital platforms managing **₦3 trillion (1.5 billion) AUM** serving **2.5 million clients**
 - Developed production **ML churn prediction models** protecting revenue
 - Pioneering **AI Agent integration** in pension fund operations
 
