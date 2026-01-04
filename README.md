@@ -18,7 +18,7 @@
 - 💡 Focus: FastAPI, PyTorch, TensorFlow, Scikit-learn, Agentic AI, MLOps
 
 👨‍🏫 **ML Educator**
-- Training **300+ students globally** through PORA Academy
+- Training **150+ students globally** through PORA Academy
 - SuperDataScience instructor focusing on production ML deployment
 - Bridging the gap between model development and real-world deployment
 
