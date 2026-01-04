@@ -8,7 +8,7 @@
 <p align="left"> <a href="https://twitter.com/adebayo_pekunmi" target="blank"><img src="https://img.shields.io/twitter/follow/adebayo_pekunmi?logo=twitter&style=for-the-badge" alt="adebayo_pekunmi" /></a> </p>
 
 - 🏢 **Unit Head, Enterprise Application Development** at Access ARM Pensions
-- Built digital platforms managing **₦3 trillion (1.5 billion) AUM** serving **2.5 million clients**
+- Built digital platforms managing **₦3 trillion (£1.5 billion) AUM** serving **2.5 million clients**
 - Developed production **ML churn prediction models** protecting revenue
 - Pioneering **AI Agent integration** in pension fund operations
 
