@@ -1,4 +1,4 @@
-![MasterHead](https://media.licdn.com/dms/image/v2/D4E16AQELqhrPaVz-3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1696936597066?e=1767225600&v=beta&t=CFyz2TOGuc_GsVSXGGRw4rhTkLAzwuaTO_rpdUWVxXw)
+![MasterHead](https://media.licdn.com/dms/image/v2/D4E16AQELqhrPaVz-3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1696936597066?e=1769040000&v=beta&t=JKv2q7utu6ZhCVPLp8WoGbbNq1vdVACIGZ4hPoDzrec)
 <h1 align="center">Hi 👋, I'm Adebayo Peter Olaonipekun</h1>
 <h3 align="center">Software Engineer & ML Educator | Built Ecosystem ₦3 trillion (£1.5 billion) AUM for 2.5M clients | Training 150+ ML engineers globally | Integrating AI Agents in fintech</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
